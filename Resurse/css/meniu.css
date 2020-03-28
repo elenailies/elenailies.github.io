@@ -8,8 +8,8 @@ nav{
 		
 		font-size:1.2rem;
 		font-weight:bold;
-		height:2rem;
-		line-height:2rem;
+		height:3rem;
+		line-height:3rem;
 		text-align:center;		
 		list-style-type:none;
 		overflow:hidden;
@@ -25,14 +25,10 @@ nav{
 		display:block;
 		height:	100%;
 		text-decoration:none;
-		color:tan;
+		color:white;
+		background:salmon;
 	}
-	ul.menu>li:nth-of-type(even) a, ul.menu>li:nth-of-type(even) div{
-		background:bisque;
-	}
-	ul.menu>li:nth-of-type(odd) a, ul.menu>li:nth-of-type(odd) div{
-		background:peachpuff;
-	}
+	
 
 	ul.menu>li>ul.submenu{
 		position:relative;
@@ -49,7 +45,7 @@ nav{
 	}
 
 	ul.menu>li>a:hover, ul.submenu>li>a:hover{
-		background:linen;
+		background:lightsalmon;
 	}
 	ul.menu>li:hover{
 		overflow:visible;

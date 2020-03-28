@@ -1,9 +1,14 @@
 body
 {
 
-  background-image:url('../Imagini/back.jpg');
+  /*background-image:url('../Imagini/back.jpg');*/
+  background-color:peachpuff;
+ 
 }
-
+h1
+{
+	padding-top:80px;
+}
 
 
 
