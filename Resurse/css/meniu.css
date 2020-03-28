@@ -42,7 +42,7 @@ nav{
 	
 
 	ul.menu>li>a:hover, ul.submenu>li>a:hover{
-		background:#6699ff;
+		background:#3366CC;
 	}
 	ul.menu>li:hover{
 		overflow:visible;
