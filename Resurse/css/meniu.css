@@ -45,7 +45,7 @@ nav{
 	}
 
 	ul.menu>li>a:hover, ul.submenu>li>a:hover{
-		background:red;
+		background:#ff3333;
 	}
 	ul.menu>li:hover{
 		overflow:visible;
