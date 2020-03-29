@@ -31,10 +31,9 @@ h1
 }
 div.coloana{
 	float:left;
-	width:50%;
+	width:40%;
 	box-sizing:border-box;
 	padding-left:10%;
-	padding-right:10%;
 	line-height:2;
 	font-family:verdana;
 	margin-top:40px;
