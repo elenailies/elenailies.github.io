@@ -1,10 +1,4 @@
-section,section>ol li,footer
-{
-margin-left:50px;	
-margin-right:50px;
-line-height:2;
-font-family:verdana;
-}
+
 
 .container 
 {
@@ -34,4 +28,23 @@ h1
   text-align: center;
   color:white;
   margin-top:100px;
+}
+div.coloana{
+	float:left;
+	width:50%;
+	box-sizing:border-box;
+	padding-left:10%;
+	padding-right:10%;
+	line-height:2;
+	font-family:verdana;
+	margin-top:40px;
+}
+
+#cont:after {
+	content: " "; 
+	clear: both; 
+	display: block;
+	visibility: hidden;
+	font-size: 0;
+	height: 0;
 }
