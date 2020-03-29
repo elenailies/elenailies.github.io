@@ -1,7 +1,37 @@
-section,section>ol li,footer,figure
+section,section>ol li,footer
 {
 margin-left:50px;	
 margin-right:50px;
 line-height:2;
 font-family:verdana;
+}
+
+.container 
+{
+  position: relative;
+}
+
+.center 
+{
+  position: absolute;
+  left: 0;
+  top: 0%;
+  width: 100%;
+}
+
+
+img
+{
+	width: 100%;
+	height: auto;
+}
+
+h1
+{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color:white;
+  margin-top:100px;
 }
