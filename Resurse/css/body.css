@@ -1,8 +1,14 @@
+*{ 
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+}
+
 body
 {
 
-  /*background-image:url('../Imagini/back.jpg');*/
-  background-color:#CCCCFF;
+  background-image:url('../Imagini/back.jpg');
+  /*background-color:#CCCCFF;*/
   color:#000066;
  
 }
