@@ -16,7 +16,8 @@ body
 }
 h1
 {
-	padding-top:80px;
+	padding-top:5%;
+	font-size:230%;
 }
 
 img
@@ -39,7 +40,6 @@ img
 #up
 {
 	width:4%;
-	position: -webkit-sticky;
 	position: sticky;
 	bottom: 0;
 	opacity:0.3;
