@@ -7,10 +7,9 @@ nav{
 	ul.menu>li, ul.menu>li>ul.submenu>li{
 		display:block;
 		
-		font-size:1.2rem;
 		font-weight:bold;
-		height:3rem;
-		line-height:3rem;
+		height:3vw;
+		line-height:3vw;
 		text-align:center;		
 		list-style-type:none;
 		overflow:hidden;
@@ -28,6 +27,7 @@ nav{
 		text-decoration:none;
 		color:white;
 		background:rgb(0, 0, 102,0.7);
+		font-size:1.2vw;
 	}
 	
 
