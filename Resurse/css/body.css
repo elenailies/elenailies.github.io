@@ -5,14 +5,16 @@
 	
 }
 
+main
+{
+	/*padding-top: 45px;*/
+}
+
 body
 {
 
   background-image:url('../Imagini/back.jpg');
-  /*background-color:#CCCCFF;*/
   color:#000066;
-  /*background-attachment: fixed;*/
- 
 }
 h1
 {

@@ -1,27 +1,16 @@
 
 
-.container 
-{
-  position: relative;
-}
-
-.center 
-{
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  width: 100%;
-}
-
-
 h1
 {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  margin-top:8%;
-  color:white;
-  animation: titlu 5s linear 1s infinite alternate;
+	width: 100%;
+	text-align: center;
+	color:white;
+	animation: titlu 5s linear 1s infinite alternate;
+	background-image:url('../Imagini/titlu2.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	padding-bottom:12%;
+	padding-top:17%;
 }
 
 @keyframes titlu {
@@ -47,7 +36,7 @@ div.coloana{
 {
 		background:rgb(180, 180, 180, 0.3);
 		margin-left:5%;
-		border-radius:10%;
+		border-radius:20px;
 }
 
 #cont:after {
