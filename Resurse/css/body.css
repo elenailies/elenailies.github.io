@@ -19,5 +19,28 @@ h1
 	padding-top:80px;
 }
 
+img
+{
+	width: 100%;
+	height: auto;
+}
 
+.contact
+{
+	width:5%;
+	margin-top:5%;
+	padding-left:5%;
+	padding-right:90%;
+	padding-top:1%;
+	padding-bottom:1%;
+	background:rgb(0, 0, 102,0.3);
+}
 
+#up
+{
+	width:4%;
+	position: -webkit-sticky;
+	position: sticky;
+	bottom: 0;
+	opacity:0.3;
+}

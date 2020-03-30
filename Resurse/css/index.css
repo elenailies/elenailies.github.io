@@ -14,12 +14,6 @@
 }
 
 
-img
-{
-	width: 100%;
-	height: auto;
-}
-
 h1
 {
   position: absolute;
@@ -63,15 +57,4 @@ div.coloana{
 	visibility: hidden;
 	font-size: 0;
 	height: 0;
-}
-
-.contact
-{
-	width:5%;
-	margin-top:10%;
-	padding-left:5%;
-	padding-right:90%;
-	padding-top:1%;
-	padding-bottom:1%;
-	background:rgb(0, 0, 102,0.3);
 }
