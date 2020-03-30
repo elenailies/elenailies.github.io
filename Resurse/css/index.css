@@ -23,12 +23,19 @@ img
 h1
 {
   position: absolute;
-  left: 0;
   width: 100%;
   text-align: center;
-  color:white;
   margin-top:100px;
+  color:white;
+  animation: titlu 5s linear 1s infinite alternate;
 }
+
+@keyframes titlu {
+  0%  {color:white;}
+  50%  {color:black;}
+  100%  {color:white;}
+}
+
 div.coloana{
 	float:left;
 	width:40%;
@@ -37,6 +44,9 @@ div.coloana{
 	padding-left:5%;
 	font-family:verdana;
 	margin-top:40px;
+	padding-bottom:2%;
+	padding-right:2%;
+	padding-top:2%;
 }
 
 #c1
@@ -53,4 +63,15 @@ div.coloana{
 	visibility: hidden;
 	font-size: 0;
 	height: 0;
+}
+
+.contact
+{
+	width:5%;
+	margin-top:10%;
+	padding-left:5%;
+	padding-right:90%;
+	padding-top:1%;
+	padding-bottom:1%;
+	background:rgb(0, 0, 102,0.3);
 }
