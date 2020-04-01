@@ -12,7 +12,7 @@
         border-radius:3%;
         padding:7%;
         width:94.5%;
-        font-size:1.6vh;
+        font-size:2vh;
         margin-bottom:0;
     }
     
@@ -24,13 +24,26 @@
     
     h1
     {
-        font-size:4vh;
+        width:95%;
+        font-size:3vh;
         padding-bottom:16%;
         padding-top:25%;
+        padding-left:2%;
+        padding-right:3%;
     }
     
     .text 
     {
         font-size: 4vw;
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     

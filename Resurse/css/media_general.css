@@ -1,0 +1,14 @@
+ @media screen and (max-width: 500px)
+ {
+     ul.menu>li
+     {
+     }
+     ul.submenu>li
+     {
+      width:400%;
+     }
+      nav
+      {
+      font-size:1.3vw;
+      }
+ }
