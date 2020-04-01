@@ -1,0 +1,36 @@
+@media screen and (max-width: 500px)
+{
+    #grid
+    {
+        grid-template-columns: 100%;
+        grid-gap: 1%;
+    }
+    
+    #c1
+    {
+        background:rgb(180, 180, 180, 0.3);
+        border-radius:3%;
+        padding:7%;
+        width:94.5%;
+        font-size:1.6vh;
+        margin-bottom:0;
+    }
+    
+    #c2
+    {
+        width:80%;
+        margin-left:7%;
+    }
+    
+    h1
+    {
+        font-size:4vh;
+        padding-bottom:16%;
+        padding-top:25%;
+    }
+    
+    .text 
+    {
+        font-size: 4vw;
+    }
+    

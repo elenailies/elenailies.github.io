@@ -1,5 +1,4 @@
 
-
 h1
 {
 	width: 100%;
@@ -14,32 +13,41 @@ h1
 }
 
 @keyframes titlu {
-  0%  {color:white;}
-  50%  {color:black;}
-  100%  {color:white;}
+	0%  {color:white;}
+	50%  {color:black;}
+	100%  {color:white;}
 }
 
-div.coloana{
-	float:left;
-	width:50%;
+#grid
+{
+	display: grid;
+	grid-template-columns: 50% 25%;
+	grid-gap: 10%;
+	margin-top:5%;
+	margin-left:5%;
+}
+
+#c1,#c2
+{	
 	box-sizing:border-box;
 	line-height:2;
-	padding-left:5%;
 	font-family:verdana;
-	margin-top:5%;
-	padding-bottom:2%;
-	padding-right:2%;
-	padding-top:2%;
+	font-size:1.2vw;
 }
 
 #c1
 {
-		background:rgb(180, 180, 180, 0.3);
-		margin-left:5%;
-		border-radius:20px;
+	background:rgb(180, 180, 180, 0.3);
+	border-radius:5%;
+	padding:7%;
 }
 
-#cont:after {
+#c2
+{
+	margin-top:2%;
+}
+
+#grid:after {
 	content: " "; 
 	clear: both; 
 	display: block;
@@ -47,3 +55,84 @@ div.coloana{
 	font-size: 0;
 	height: 0;
 }
+
+#c2>div
+{
+	margin-bottom:10%;
+	padding:25%;
+	background-size: cover;
+	color:black;
+}
+
+#c2>div:hover .text
+{
+	/*opacity: 0;*/
+	font-size:0px;
+}
+
+.d3:hover 
+{
+	background-image:url('../Imagini/mecanice.jpg');
+}
+
+.d1
+{
+	background:url('../Imagini/prezentationale.jpg');
+}
+
+.d2
+{
+	background:url('../Imagini/reprezentationale.jpg');
+}
+
+.d3
+{
+	background:url('../Imagini/mecanice.png');
+}
+
+.text 
+{
+	font-size: 1vw;
+	text-align: center;
+	font-weight:bold;
+}
+
+.download
+{
+	font-size: 0px;
+	text-align: center;
+	opacity:1;
+	font-weight:bold;
+	color:white;
+}
+
+#c2>div:hover .download
+{
+	font-size:1vw;
+	background-color:#000066;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

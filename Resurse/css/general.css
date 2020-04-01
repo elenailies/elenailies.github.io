@@ -1,6 +1,21 @@
-nav{
+*{ 
+	margin:0px;
+	padding:0px;
+	text-indent:0px;
+	 
+}
+
+main
+{
+	/*padding-top: 45px;*/
+}
+
+
+
+nav{/*meniu*/
 		width:100%;
 		position:fixed;
+		font-size:1.2vw;
 		
 	}
 
@@ -48,3 +63,63 @@ nav{
 	ul.menu>li:hover{
 		overflow:visible;
 	}
+
+
+
+body
+{
+
+  background-image:url('../Imagini/back.jpg');
+  color:#000066;
+}
+h1
+{
+	padding-top:5%;
+	font-size:2.5vw;
+}
+
+img
+{
+	width: 100%;
+	height: auto;
+}
+
+.contact
+{
+	width:5%;
+	margin-top:5%;
+	padding-left:5%;
+	padding-right:90%;
+	padding-top:1%;
+	padding-bottom:1%;
+	background:rgb(0, 0, 102,0.3);
+}
+
+#up
+{
+	width:4%;
+	position: sticky;
+	bottom: 0;
+	opacity:0.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
