@@ -1,14 +1,32 @@
  @media screen and (max-width: 500px)
  {
-     ul.menu>li
-     {
-     }
      ul.submenu>li
      {
       width:400%;
      }
       nav
       {
-      font-size:1.3vw;
+      font-size:4vw;
+      }
+      ul.menu>li, ul.menu>li>ul.submenu>li
+      {
+       height:2rem;
+       line-height:2rem;
+      }
+      
+      .contact
+      {
+       padding-left:45%;
+       padding-right:50%;
+      }
+      
+      .contact img
+      {
+       width:300%;
+      }
+      
+      #up
+      {
+       width:10%;
       }
  }
