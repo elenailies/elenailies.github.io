@@ -1,0 +1,59 @@
+ @media screen and (max-width: 500px)
+ {
+    .galerie1
+    {
+        grid-template-columns:100%;
+        background:none;
+        grid-row-gap:7vw;
+    }
+    
+    .element:nth-child(5)
+    {
+       grid-column-start:1;
+       grid-column-end:2;
+       
+    }
+    
+    .element:nth-child(6)
+    {
+       grid-column-start:1;
+       grid-column-end:2;
+       
+    }
+    
+    .element:nth-child(6) img{height:60vw;}
+    .element:nth-child(5) img{height:60vw;}
+    
+    .element img
+    {
+      height:60vw;
+    }
+
+    
+    .element
+    {
+        width:100%;   
+    }
+    
+    .galerie img
+    {
+     height:60vw;  
+    }
+    
+    .galerie
+    {
+       height:60vw;
+   }
+   
+   .galerie1 figure figcaption
+{
+    height:8vw;
+    font-size:5vw;
+    
+}
+    
+ }
+ 
+ 
+ 
+ 

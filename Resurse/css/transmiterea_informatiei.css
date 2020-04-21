@@ -1,0 +1,50 @@
+ body
+ {
+  counter-reset: section;
+}
+
+h2
+{
+  counter-reset: subsection;
+}
+
+h2::before
+{
+  counter-increment: section;
+  content: counter(section) ". ";
+}
+
+h3::before
+{
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " ";
+}
+
+main
+{
+    margin-left:3vw;
+    margin-right:3vw;
+}
+
+p
+{
+    margin-top:1vw;
+    margin-bottom:1vw;
+    text-indent: 3vw;
+}
+
+ul,#ul,dl
+{
+    color:red;
+}
+section
+{
+    margin-bottom:2vw;
+}
+
+dt
+{
+    color:black;
+}
+
+

@@ -1,0 +1,68 @@
+
+main
+{
+    margin-left:3vw;
+    margin-right:3vw;
+}
+ 
+ table
+ {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 70%;
+  height:10vw;
+  margin-top:3vw;
+  margin-bottom:3vw;
+  vertical-align: bottom;
+  font-size:1.5vw;
+}
+
+caption
+{
+  caption-side: bottom;
+}
+
+th, td
+{
+    padding:0.8vw;
+}
+th
+{
+  background-color: #4CAF50;
+  color: white;
+}
+
+tbody td:nth-child(odd)
+{
+    background-color:blue;
+    color:white;
+}
+
+tbody td:nth-child(even)
+{
+    background-color:white;
+}
+
+tfoot tr
+{
+    background-color:#ddd;
+    text-align:center;
+}
+
+p
+{
+    margin-top:1vw;
+    margin-bottom:1vw;
+    text-indent: 3vw;
+    background:lime;
+}
+
+p:nth-of-type(1)
+{
+    color:blue;
+}
+
+h2:before
+{
+    content:url("../Imagini/before.png");
+}

@@ -72,7 +72,17 @@ h1
 
 .d3:hover 
 {
-	background-image:url('../Imagini/mecanice.jpg');
+	background-image:url('../Imagini/mecanice.png');
+}
+
+.d2:hover 
+{
+	background-image:url('../Imagini/reprezentationale.png');
+}
+
+.d1:hover 
+{
+	background-image:url('../Imagini/prezentationale.png');
 }
 
 .d1
@@ -87,7 +97,7 @@ h1
 
 .d3
 {
-	background:url('../Imagini/mecanice.png');
+	background:url('../Imagini/mecanice.jpg');
 }
 
 .text 
@@ -95,6 +105,7 @@ h1
 	font-size: 1vw;
 	text-align: center;
 	font-weight:bold;
+	color:white;
 }
 
 .download
@@ -110,12 +121,15 @@ h1
 {
 	font-size:1vw;
 	background-color:#000066;
-	padding-left:5px;
-	padding-right:5px;
+	
 }
 
+.d1 .text
+{
+	color:rgb(0, 0, 102);
+}
 
-
+ol{color:red;}
 
 
 

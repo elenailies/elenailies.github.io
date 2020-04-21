@@ -5,12 +5,16 @@
 	 
 }
 
-main
-{
-	/*padding-top: 45px;*/
-}
-
-
+ h1
+ {
+    padding-top:5vw;
+    font-size:3vw;
+ }
+ 
+ h2
+ {
+	text-decoration: overline;
+ }
 
 nav{/*meniu*/
 		width:100%;
@@ -24,8 +28,8 @@ nav{/*meniu*/
 		display:block;
 		
 		font-weight:bold;
-		height:3rem;
-		line-height:3rem;
+		height:3vw;
+		line-height:3vw;
 		text-align:center;		
 		list-style-type:none;
 		overflow:hidden;
@@ -67,7 +71,7 @@ nav{/*meniu*/
 
 figcaption
 {
-	font-size:1vw;
+	font-size:1.2vw;
 }
 
 body
@@ -107,7 +111,6 @@ img
 	opacity:0.3;
 	float:right;
 }
-
 
 
 
